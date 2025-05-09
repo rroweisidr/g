@@ -1,0 +1,11 @@
+{
+  "name": "gla",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm --prefix server start\" \"npm --prefix client start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
